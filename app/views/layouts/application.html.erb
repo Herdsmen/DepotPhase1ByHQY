@@ -1,0 +1,19 @@
+<!-- START:head -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Depot</title>
+<!-- START_HIGHLIGHT -->
+  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag :depot %>
+<!-- END_HIGHLIGHT -->
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<!-- END:head -->
+<body>
+
+<%= yield %>
+
+</body>
+</html>
